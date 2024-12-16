@@ -25,7 +25,7 @@ const signOutButton = document.getElementById('signOutButton');
   '{% endif %}'
   $('#signOutButton').click(() => {
     firebase.auth().signOut().then(() => {
-      location.href = "{{site.baseurl}}/";
+      location.href = "{{site.baseurl}}/admin";
     }).catch((error) => {
       alert(error.message);
     });
