@@ -50,14 +50,14 @@ permalink: /
 
     <script type="module">
       const firebaseConfig = {
-          apiKey: "{{ site.env.API_KEY }}",
-          authDomain: "{{ site.env.AUTH_DOMAIN }}",
-          databaseURL: "{{ site.env.DATABASE_URL }}",
-          projectId: "{{ site.env.PROJECT_ID }}",
-          storageBucket: "{{ site.env.STORAGE_BUCKET }}",
-          messagingSenderId: "{{ site.env.SENDER_ID }}",
-          appId: "{{ site.env.APP_ID }}",
-          measurementId: "{{ site.env.MEASUREMENT_ID }}"
+          apiKey: "{{ site.apiKey }}",
+          authDomain: "{{ site.authDomain }}",
+          databaseURL: "{{ site.databaseURL }}",
+          projectId: "{{ site.projectId }}",
+          storageBucket: "{{ site.storageBucket }}",
+          messagingSenderId: "{{ site.messagingSenderId }}",
+          appId: "{{ site.appId }}",
+          measurementId: "{{ site.measurementId }}"
       };
       firebase.initializeApp(firebaseConfig);
       
