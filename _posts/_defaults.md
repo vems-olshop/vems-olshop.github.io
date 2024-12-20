@@ -1,0 +1,19 @@
+---
+code: 
+title: 
+description: 
+categories: 
+tags: 
+price: 
+stock: 
+sizes:
+  - 
+  - 
+  - 
+styles:
+  - name: 
+    color: 
+    image_path: 
+featured_image_path: 
+facebook_image_path: 
+---

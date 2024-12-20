@@ -1,0 +1,83 @@
+url: "https://j-store.pages.dev"
+baseurl: ""
+title: "J-static"
+description: "A static OnLine shop base on jekyll & simpleCart, with whatsapp checkout form."
+avatar: /images/logo/cart-icon.webp
+
+dev: unangning_EU
+adminWa: 081386267897
+sitekey: 6LdPL-wZAAAAAAzUvjEWXHGLAgKL78wBzB1IR8t7
+
+alamat: 'Jl. Raya Resort, Mekarsaluyu,<br/>Kec. Cimenyan, Kabupaten Bandung,'
+lengkap: 'Jawa Barat 40198'
+maps: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.192389487675!2d107.63110718143614!3d-6.867535040878643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e70f77161917%3A0xde1d623280bd2701!2sTaman%20Dago%20Pakar%20Waterfall!5e0!3m2!1sid!2sid!4v1657065166016!5m2!1sid!2sid
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-timeago
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+  - jekyll-dotenv
+
+permalink: /products/:title/
+
+# Site Pagination
+paginate: 6
+paginate_path: /products/page:num/
+
+# Sass Folder
+sass:
+    sass_dir: _styles
+    style: compressed
+
+# Custom Collections
+collections:
+  blogs:
+    output: true
+
+# Collection Defaults
+defaults:
+- scope:
+    type: posts
+  values:
+    layout: post
+- scope:
+    type: pages
+  values:
+    layout: page
+- scope:
+    type: blogs
+  values:
+    layout: blog
+
+# Frontmatter Defaults
+sidebar_options:
+  - sidebar
+  - no-sidebar
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    tags: '/tag/:name/'
+
+compress_html:
+  clippings: all
+
+apiKey: "AIzaSyDfZEKaggvi2SN4Jeyhc3XCeb4A1DJVmQE"
+authDomain: "vems-olshop.firebaseapp.com"
+projectId: "vems-olshop"
+storageBucket: "vems-olshop.firebasestorage.app"
+messagingSenderId: "281544003271"
+appId: "1:281544003271:web:1e1d6c0e66f0e4583638e2"
+measurementId: "G-RGVXFFWN72"
+   
+exclude: [lib, config.rb, .sass-cache, .env, .env_local, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, package.json, package-lock.json]
