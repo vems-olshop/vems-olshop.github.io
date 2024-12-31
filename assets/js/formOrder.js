@@ -15,7 +15,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .nama').attr('placeholder');
 				Swal.fire({
 				  icon: "error",
-				  title: "Oops...",
 				  text: ph + ' Wajib Dicantumkan', });
 				$('#whatsapp-order .nama').focus();
 				return false;
@@ -23,7 +22,6 @@ function WhatsApp() {
                 ph = $('#whatsapp-order .nomor').attr('placeholder');
                 Swal.fire({
 				  icon: "error",
-				  title: "Oops...",
 				  text: ph + ' Harus Tercantum', });
                 $('#whatsapp-order .nomor').focus();
 				return false;
@@ -31,7 +29,6 @@ function WhatsApp() {
                 ph = $('#whatsapp-order .email').attr('placeholder');
                 Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Harus Tercantum', });
                 $('#whatsapp-order .email').focus();
 				return false;
@@ -39,7 +36,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .alamat').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Mohon Diisi Sesuai Lokasi Pengiriman', });
 				$('#whatsapp-order .alamat').focus();
                 return false;
@@ -47,7 +43,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .kota').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Mohon Diisi Sesuai Lokasi Pengiriman', });
 				$('#whatsapp-order .kota').focus();
                 return false;
@@ -55,7 +50,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .provinsi').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Mohon Diisi Sesuai Lokasi Pengiriman', });
 				$('#whatsapp-order .provinsi').focus();
                 return false;
@@ -63,7 +57,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .kodepos').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Mohon Diisi Sesuai Lokasi Pengiriman', });
 				$('#whatsapp-order .kodepos').focus();
                 return false;
@@ -71,7 +64,6 @@ function WhatsApp() {
                 ph = $('#whatsapp-order .qty').attr('placeholder');
                 Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: 'Jumlah Item Tidak Boleh ' + ph + ' pcs', });
                 $('#whatsapp-order .qty').focus();
 				return false;
@@ -79,7 +71,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .bayar').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: ph + ' Metode?', });
 				$('#whatsapp-order .bayar').focus();
 				return false;
@@ -87,7 +78,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .warna').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: 'Silahkan pilih ' + ph });
 				$('#whatsapp-order .warna').focus();
 				return false;
@@ -95,7 +85,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .tali').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: 'Silahkan pilih ' + ph });
 				$('#whatsapp-order .tali').focus();
 				return false;
@@ -103,7 +92,6 @@ function WhatsApp() {
 				ph = $('#whatsapp-order .informasi').attr('placeholder');
 				Swal.fire({
 				icon: "error",
-				title: "Oops...",
 				text: 'Silahkan pilih ' + ph });
 				$('#whatsapp-order .informasi').focus();
 				return false;

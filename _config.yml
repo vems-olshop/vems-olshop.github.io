@@ -1,10 +1,10 @@
 url: "https://j-store.pages.dev"
 baseurl: ""
-title: "J-static"
+title: "VEMS OLshop"
 description: "A static OnLine shop base on jekyll & simpleCart, with whatsapp checkout form."
 avatar: /images/logo/cart-icon.webp
 
-dev: unangning_EU
+dev: vems_olshop
 adminWa: 081386267897
 sitekey: 6LdPL-wZAAAAAAzUvjEWXHGLAgKL78wBzB1IR8t7
 
@@ -80,4 +80,4 @@ messagingSenderId: "281544003271"
 appId: "1:281544003271:web:1e1d6c0e66f0e4583638e2"
 measurementId: "G-RGVXFFWN72"
    
-exclude: [lib, config.rb, .sass-cache, .env, .env_local, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, package.json, package-lock.json]
+exclude: [lib, config.rb, .sass-cache, .env, .env_local, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, package.json, package-lock.json, /assets/js/formOrder.js, /assets/js/simpleCart.js]
