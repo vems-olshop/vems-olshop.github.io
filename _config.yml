@@ -1,4 +1,4 @@
-url: "https://j-store.pages.dev"
+url: "vems-olshop.github.io"
 baseurl: ""
 title: "VEMS OLshop"
 description: "A static OnLine shop base on jekyll & simpleCart, with whatsapp checkout form."
@@ -6,7 +6,7 @@ avatar: /images/logo/cart-icon.webp
 
 dev: vems_olshop
 adminWa: 081386267897
-sitekey: 6LdPL-wZAAAAAAzUvjEWXHGLAgKL78wBzB1IR8t7
+sitekey: 6Lf8BdkpAAAAAElS8xJWvKYvFtTvIBMD3GKQn0sz
 
 alamat: 'Jl. Raya Resort, Mekarsaluyu,<br/>Kec. Cimenyan, Kabupaten Bandung,'
 lengkap: 'Jawa Barat 40198'
