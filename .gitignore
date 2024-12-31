@@ -9,5 +9,5 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
-/assets/js/formOrder.js
-/assets/js/simpleCart.js
+assets/js/formOrder.js
+assets/js/simpleCart.js
