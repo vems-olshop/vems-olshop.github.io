@@ -74,6 +74,7 @@ compress_html:
 
 apiKey: "AIzaSyDfZEKaggvi2SN4Jeyhc3XCeb4A1DJVmQE"
 authDomain: "vems-olshop.firebaseapp.com"
+databaseURL: "https://vems-olshop-default-rtdb.asia-southeast1.firebasedatabase.app"
 projectId: "vems-olshop"
 storageBucket: "vems-olshop.firebasestorage.app"
 messagingSenderId: "281544003271"
